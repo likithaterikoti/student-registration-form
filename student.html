@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>student registration form</title>
+        <meta charset="UTF-8">
+        <meta content="viewport" width="device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="student.css">
+    </head>
+    <body>
+        <h2>Student Registration Form</h2>
+        <form id="registration">
+            <lable for="Name">Name:</lable>
+            <input type="text" id="name" name="name" required>
+
+            <lable for="phn">Phone Number:</lable>
+            <input type="number" id="phn" name="phn" required>
+
+            <lable for="date">DOB:</lable>
+            <input type="date" id="date" name="date" required>
+
+            <lable for="hallticket">Hallticket Number:</lable>
+            <input type="number" id="hall" name="hallticket" placeholder="Ex:721149105XXX" required>
+
+            <lable for="email">Email:</lable>
+            <input type="email" id="email" name="email" placeholder="Ex:yourname@gmail.com" required>
+
+            <lable for="gender">Gender:</lable>
+            <select id="gender" name="gender" required>
+                <option id="male">Male</option>
+                <option id="female">Female</option>
+                <option id="others">Others</option>
+            </select>
+
+            <lable for="course">Course:</lable>
+            <select id="course" name="course" required>
+            <option id="bsc">Bsc</option>
+            <option id="bcom">Bcom</option>
+            <option id="ba">BA</option>
+            <option id="Bca">BCA</option>
+            </select>
+
+            <lable for="sem">Sem:</lable>
+            <input type="number" id="sem" name="sem" required>
+
+            <input type="submit" value="submit">
+        </form>
+        <script src="javascript.js"></script>
+    </body>
+</html>
